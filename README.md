@@ -19,6 +19,17 @@ shares, risk, reward and reward-to-risk. The box stays on its candles as you scr
 paperMoney you can also send the box to paperMoney as a bracket order (entry, target and stop).
 
 
+## Why Windows warns you
+
+Tether is a free test run, and it isn't code-signed. Code signing is a paid certificate that tells Windows
+who published a program. Without it, Windows shows "Windows protected your PC" (or "Unknown publisher")
+for any new program from a small developer. **That warning is expected.** It means Windows has no
+history on the file, not that something is wrong with it.
+[Microsoft explains unsigned apps here](https://support.microsoft.com/Windows/privacy/about-unsigned-apps).
+
+To open it anyway: click "More info", then "Run anyway". If your PC has Smart App Control turned on,
+Windows may block it with no option to continue. Please tell us if that happens.
+
 ## What you need
 
 - Windows 11 or Windows 10, 64-bit

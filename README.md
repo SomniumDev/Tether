@@ -142,6 +142,12 @@ and when you send a paperMoney order. Diagnostics leave your PC only if you copy
 yourself. They contain your Tether settings and recent activity, never your paperMoney login.
 
 
+## Who made this
+
+Tether is an independent project by one busy college student (SomniumDev), built in spare time. It isn't
+a company or a team, so replies and fixes may be slow. Honest feedback is what makes it better, and
+it's the reason this test run exists.
+
 ## The small print
 
 Tether is a free alpha test version from SomniumDev, provided as is, with no warranty. It isn't investment advice.

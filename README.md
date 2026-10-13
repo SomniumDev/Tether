@@ -120,9 +120,10 @@ This test is about three questions:
 2. Did the box show the right prices?
 3. A week from now, are you still using it?
 
-Send your answers, and anything else you noticed, to SomniumDev (the person who gave you Tether). If
-something went wrong, click Copy diagnostics in the panel and paste the result into your message:
-it's a short code that helps us find the problem.
+Post your answers, and anything else you noticed, in Discussions on Tether's GitHub page:
+https://github.com/SomniumDev/Tether/discussions (you need a free GitHub account). Discussions are
+public, so don't include anything private. If something went wrong, click Copy diagnostics in the panel
+and paste the result into your post: it's a short code that helps us find the problem.
 
 
 ## Troubleshooting
@@ -161,7 +162,7 @@ Start tracking is greyed out
 
 Tether runs on your PC. It sends nothing anywhere, except to paperMoney when you connect it
 and when you send a paperMoney order. Diagnostics leave your PC only if you copy and send them
-yourself. They contain your Tether settings and recent activity, never your paperMoney login.
+yourself. They contain your Tether settings and recent activity, never your paperMoney login or account numbers.
 
 
 ## Known problems and what's planned
@@ -184,7 +185,7 @@ It's a free test run, so the order and timing of these depend on what testers te
 
 ## Who made this
 
-Tether is an independent project by one busy college student (SomniumDev), built in spare time. It isn't
+Tether is an independent project by one college student (SomniumDev), built in spare time. It isn't
 a company or a team, so replies and fixes may be slow. Honest feedback is what makes it better, and
 it's the reason this test run exists.
 

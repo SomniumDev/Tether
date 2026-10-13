@@ -188,6 +188,13 @@ Tether is an independent project by one busy college student (SomniumDev), built
 a company or a team, so replies and fixes may be slow. Honest feedback is what makes it better, and
 it's the reason this test run exists.
 
+## Support Tether
+
+Tether is free, and it stays free while it's being tested. If you'd like to help the project along, you can
+support it on [Patreon](https://patreon.com/Somnium_Dev). Support is voluntary and doesn't buy anything:
+no features, access, order of fixes or results are promised in return, and the test run works the same
+for everyone.
+
 ## The small print
 
 Tether is a free alpha test version from SomniumDev, provided as is, with no warranty. It isn't investment advice.

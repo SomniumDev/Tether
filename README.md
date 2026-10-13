@@ -93,9 +93,20 @@ paperMoney account, enter the last 4 digits of the one to use.
 
 ### Connecting paperMoney (for paperMoney orders only)
 
-The box works without this. To send paperMoney orders, choose paperMoney under What to start, then
-click Connect paperMoney and follow the four steps in that window. A login lasts about a day: when
-it runs out, Tether says so, and you repeat steps 2 to 4.
+The box works without this. You only need it to send paperMoney orders, and it needs a login
+from the thinkorswim website:
+
+1. In Tether, choose paperMoney under What to start, then click Connect paperMoney.
+2. Click Copy the bookmark. Then, in your web browser, add a new bookmark and paste what you copied
+   into its address (URL) box. Name it anything, like "Tether login". If you can't see your bookmarks
+   bar, press Ctrl+Shift+B in Chrome or Edge to show it.
+3. In that browser, log in at trade.thinkorswim.com the way you normally do, and stay on that page.
+4. Click your new bookmark while you're on that page. It copies your login. (If it says to log in
+   first, you're not on the logged-in thinkorswim page.)
+5. Back in Tether, paste into the box and click Connect. It says Connected when paperMoney accepts it.
+
+A login lasts about a day. When it runs out, Tether says so, and you repeat steps 3 to 5 (the
+bookmark is already saved).
 
 Your login stays on your PC, in your Windows account, and is sent only to paperMoney. Treat it like
 a password.
@@ -152,6 +163,24 @@ Tether runs on your PC. It sends nothing anywhere, except to paperMoney when you
 and when you send a paperMoney order. Diagnostics leave your PC only if you copy and send them
 yourself. They contain your Tether settings and recent activity, never your paperMoney login.
 
+
+## Known problems and what's planned
+
+Problems we know about:
+
+- Tracking is poor while you move the cursor around the chart, and can lag behind the chart.
+- Right after you zoom, the box can sit at the wrong prices for a moment before it corrects itself.
+- **You have to reconnect paperMoney about once a day.** The saved login runs out, and connecting again
+  takes a few steps (see "Connecting paperMoney" above). This only affects sending paperMoney orders;
+  the box works without it.
+
+Planned:
+
+- **Automatic login renewal**, so you connect paperMoney once and don't have to repeat it every day. We
+  haven't confirmed this is possible yet, so it's a goal, not a promise.
+- Easier connecting: fewer steps when you do have to connect.
+
+It's a free test run, so the order and timing of these depend on what testers tell us matters most.
 
 ## Who made this
 

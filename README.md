@@ -10,9 +10,13 @@ By SomniumDev
     It works only while thinkorswim is logged in to paperMoney.
     It can't place real-money orders: that code isn't in the program.
 
+    ONE CHART AT A TIME.
+    The box works on one chart at once. Choosing another chart moves it there.
+
     KNOWN ISSUES WE'RE WORKING ON
     - Poor tracking while you move the cursor around the chart
-    - Laggy tracking
+    - Laggy tracking: right after you zoom, the box can sit at the wrong prices for a
+      moment before it corrects itself
 
 Tether draws a position box on your thinkorswim chart: target, entry and stop, with your
 shares, risk, reward and reward-to-risk. The box stays on its candles as you scroll and zoom. In
@@ -65,6 +69,12 @@ Other setups may work but haven't been tested yet. "Check my setup" (below) tell
    - drag anywhere else inside the box to move all of it
 5. Press Ctrl+Alt+T again to remove it. Ctrl+Alt+P shows or hides the panel.
 
+Prefer to pick the chart yourself? Click "Choose which chart to use..." in the panel. It lists the
+charts it can see: hover over a row and a green frame shows which chart it is, then click the row.
+If your chart isn't listed, click "Draw around a chart instead", then drag a rectangle around the
+chart, like a screenshot tool (Esc cancels). Tether works on one chart at a time, so choosing a chart
+while one is running moves the box there.
+
 You can change the hotkeys in Settings.
 
 ### What to start
@@ -113,7 +123,8 @@ it's a short code that helps us find the problem.
 
 "No chart found"
 : Make sure thinkorswim isn't minimised, the chart's price scale is on the right, and the chart is
-  big enough to show several prices on its scale.
+  big enough to show several prices on its scale. If Choose which chart to use... lists nothing, try
+  Draw around a chart instead.
 
 The box is in the wrong place, or jumps around
 : These are the known issues above. Move the chart a little and the box usually settles. Please

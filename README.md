@@ -83,13 +83,21 @@ You can change the hotkeys in Settings.
 - Dry run: the box plus an order ticket. Create order shows the order. Nothing is sent.
 - paperMoney: the box plus the ticket. Create order asks paperMoney to check the order and shows
   thinkorswim's confirmation; Confirm & send places it in your paperMoney account. Once it's
-  working, the box follows the order lines on your chart.
+  working, the box follows the order lines on your chart. Drag its target or stop line and let go to
+  replace those working orders in paperMoney with the new prices; change anything else in thinkorswim.
+  To lock the box while an order is working instead, turn off "Drag target and stop to change orders"
+  in Settings.
 
 ### Size
 
 Choose Shares for a fixed number of shares, or $ at risk to size the position from the money you'd
-lose if the stop is hit. "Most $ in one position" caps the size. If you have more than one
-paperMoney account, enter the last 4 digits of the one to use.
+lose if the stop is hit. "Most $ in one position" caps the size.
+
+With more than one paperMoney account, orders go to the account selected in thinkorswim. If Tether
+can't see which one that is, it picks one itself (each order names it), and Check my setup offers
+Turn on: it runs thinkorswim's own switch to turn on Java accessibility for your Windows account.
+Restart thinkorswim afterwards. Turn off (in the same place) undoes it. To always use one account
+instead, choose it in Settings > Advanced.
 
 ### Connecting paperMoney (for paperMoney orders only)
 
@@ -105,7 +113,7 @@ from the thinkorswim website:
    first, you're not on the logged-in thinkorswim page.)
 5. Back in Tether, paste into the box and click Connect. It says Connected when paperMoney accepts it.
 
-A login lasts more than a day. When it runs out, Tether says so, and you repeat steps 3 to 5 (the
+A login lasts at least a day and a half, and longer if you leave it alone. When it runs out, Tether says so, and you repeat steps 3 to 5 (the
 bookmark is already saved).
 
 Your login stays on your PC, in your Windows account, and is sent only to paperMoney. Treat it like
@@ -122,8 +130,8 @@ This test is about three questions:
 
 Post your answers, and anything else you noticed, in Discussions on Tether's GitHub page:
 https://github.com/SomniumDev/Tether/discussions (you need a free GitHub account). Discussions are
-public, so don't include anything private. If something went wrong, click Copy diagnostics in the panel
-and paste the result into your post: it's a short code that helps us find the problem.
+public, so don't include anything private. If something went wrong, open Check my setup in the
+panel, click Copy diagnostics, and paste the result into your post: it's a short code that helps us find the problem.
 
 
 ## Troubleshooting

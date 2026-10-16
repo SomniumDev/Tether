@@ -105,7 +105,7 @@ from the thinkorswim website:
    first, you're not on the logged-in thinkorswim page.)
 5. Back in Tether, paste into the box and click Connect. It says Connected when paperMoney accepts it.
 
-A login lasts about a day. When it runs out, Tether says so, and you repeat steps 3 to 5 (the
+A login lasts more than a day. When it runs out, Tether says so, and you repeat steps 3 to 5 (the
 bookmark is already saved).
 
 Your login stays on your PC, in your Windows account, and is sent only to paperMoney. Treat it like
@@ -171,7 +171,7 @@ Problems we know about:
 
 - Tracking is poor while you move the cursor around the chart, and can lag behind the chart.
 - Right after you zoom, the box can sit at the wrong prices for a moment before it corrects itself.
-- **You have to reconnect paperMoney about once a day.** The saved login runs out, and connecting again
+- **You have to reconnect paperMoney every day or two.** The saved login runs out, and connecting again
   takes a few steps (see "Connecting paperMoney" above). This only affects sending paperMoney orders;
   the box works without it.
 

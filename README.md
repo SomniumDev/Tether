@@ -51,7 +51,7 @@ Other setups may work but haven't been tested yet. "Check my setup" (below) tell
 3. Windows may warn you, because this test version isn't signed:
    - "Windows protected your PC": click More info, then Run anyway.
    - Your antivirus may ask about it too. Allow it if you're comfortable doing so.
-   - "Smart App Control blocked it": Tether can't run on that PC yet. Please tell us.
+   - "Smart App Control blocked it": see Troubleshooting below.
 4. Read the notice that opens and click I understand.
 5. To open it from the Start menu or the taskbar: Settings > Create shortcuts. Nothing starts with
    Windows: Tether runs only while its window is open.
@@ -136,6 +136,14 @@ panel, click Copy diagnostics, and paste the result into your post: it's a short
 
 ## Troubleshooting
 
+Smart App Control blocked Tether
+: Smart App Control is a Windows 11 protection that runs a program only if Microsoft already knows it
+  or it carries a paid signature, which this free test version doesn't have yet. Microsoft learns new
+  programs over time, so Tether may open if you try again a day or two later. To confirm the block:
+  open Event Viewer, go to Applications and Services Logs > Microsoft > Windows > CodeIntegrity >
+  Operational, and look for event 3077 that names Tether.exe. Please tell us in Discussions either way.
+  You don't need to turn Smart App Control off for this test.
+
 "A Windows language feature Tether needs isn't installed"
 : Open Windows Settings > Time & language > Language & region. Make sure English (United States)
   is in the list (add it if not). Then click the three dots next to it > Language options, and
@@ -158,6 +166,11 @@ Start tracking is greyed out
 
 
 ## Remove it
+
+In Settings > Advanced, click Uninstall Tether. It shows what will be removed, lets you keep or delete your
+settings and saved paperMoney login, then closes Tether and deletes its folder and shortcuts.
+
+To do it by hand instead:
 
 1. In Settings, click Remove shortcuts.
 2. Click Quit.

@@ -1,4 +1,4 @@
-# Tether: free test run (alpha 0.1)
+# Tether: free test run (alpha 0.2)
 
 By SomniumDev
 
